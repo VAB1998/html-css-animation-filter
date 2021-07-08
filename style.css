@@ -10,7 +10,6 @@
     background-color: red;
 }
 
-
 .ex-2-square {
     width: 100px;
     height: 100px;
@@ -24,14 +23,18 @@
     height: 300px;
 }
 
-
-
-
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    /* EFFECT */
+    transition: border-radius 4s ease;
 }
+/* EXERCISE 3 EFFECT */
+.ex-3-square:hover{
+    border-radius: 50px;
+}
+
 .ex-4-square {
     width: 100px;
     height: 100px;
