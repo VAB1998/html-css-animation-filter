@@ -15,7 +15,18 @@
     width: 100px;
     height: 100px;
     background: red;
+    /* EFFECT */
+    transition: all 4s ease;
 }
+/* EXERCISE 2 EFFECT */
+.ex-2-square:active{
+    width: 800px;
+    height: 300px;
+}
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
