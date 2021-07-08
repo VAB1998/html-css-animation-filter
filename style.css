@@ -71,14 +71,53 @@
 }
 
 /* EXERCISE 6 EFFECT */
-.ex-6-img{
+.ex-6-img:hover{
     filter: grayscale(100%);
 }
 
+/* EXERCISE 7 EFFECT */
+.ex-7-img{
+    transition: filter 3s ease;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(100%);
+}
+
+/* EXERCISE 8 EFFECT */
+.ex-8-img{
+    transition: all 3s ease; 
+}
+
+.ex-8-img:hover{
+    filter: hue-rotate(180deg) contrast(200%);
+    border-radius: 500px;
+}
+
+/* EXERCISE 9 EFFECT */
+.ex-9-img{
+    transition: all 3s ease; 
+}
+
+.ex-9-img:hover{
+    filter: hue-rotate(180deg) contrast(200%);
+    width: 80%;
+    border-radius: 500px;
+}
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+}
+/* EXERCISE 9 EFFECT */
+.ex-9-img{
+    transition: all 3s ease; 
+}
+
+.ex-9-img:hover{
+    filter: hue-rotate(180deg) contrast(200%);
+    width: 80%;
+    border-radius: 500px;
 }
 .ex-10-icon {
     font-size: 60px;
