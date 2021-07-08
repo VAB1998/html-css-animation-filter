@@ -114,7 +114,7 @@
 .ex-10-icon {
     font-size: 60px;
     animation-name: exercise_10;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal; 
@@ -128,10 +128,31 @@
     100% {transform: rotate(360deg);}
   }
 
-
+/* EXERCISE 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation-name: exercise_11;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+
+@keyframes exercise_11{
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(0deg);}
+  }
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
