@@ -94,17 +94,6 @@
     border-radius: 500px;
 }
 
-/* EXERCISE 9 EFFECT */
-.ex-9-img{
-    transition: all 3s ease; 
-}
-
-.ex-9-img:hover{
-    filter: hue-rotate(180deg) contrast(200%);
-    width: 80%;
-    border-radius: 500px;
-}
-
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -119,9 +108,27 @@
     width: 80%;
     border-radius: 500px;
 }
+
+
+/* EXERCISE 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation-name: exercise_10;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal; 
 }
+
+@keyframes exercise_10 {
+    0%   {transform: rotate(0deg);}
+    25%  {transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);}
+    75%  {transform: rotate(270deg);}
+    100% {transform: rotate(360deg);}
+  }
+
+
 .ex-11-icon {
     font-size: 60px;
 }
